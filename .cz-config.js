@@ -1,47 +1,46 @@
 module.exports = {
     // type 类型
     types: [
-      { value: 'feat', name: 'feat:     新增产品功能' },
-      { value: 'fix', name: 'fix:      修复 bug' },
-      { value: 'docs', name: 'docs:     文档的变更' },
+      { value: 'feat', name: 'feat:新增产品功能' },
+      { value: 'fix', name: 'fix:修复 bug' },
+      { value: 'docs', name: 'docs:文档的变更' },
       {
         value: 'style',
         name:
-          'style:    不改变代码功能的变动(如删除空格、格式化、去掉末尾分号等)',
+          'style:不改变代码功能的变动(如删除空格、格式化、去掉末尾分号等)',
         },
       {
         value: 'refactor',
-        name: 'refactor: 重构代码。不包括 bug 修复、功能新增',
+        name: 'refactor:重构代码。不包括 bug 修复、功能新增',
       },
       {
         value: 'perf',
-        name: 'perf:     性能优化',
+        name: 'perf:性能优化',
       },
-      { value: 'test', name: 'test:     添加、修改测试用例' },
+      { value: 'test', name: 'test:添加、修改测试用例' },
       {
         value: 'build',
-        name: 'build:    构建流程、外部依赖变更，比如升级 npm 包、修改 webpack 配置'
+        name: 'build:构建流程、外部依赖变更，比如升级 npm 包、修改 webpack 配置'
       },
-      { value: 'ci', name: 'ci:       修改了 CI 配置、脚本' },
+      { value: 'ci', name: 'ci:修改了CI配置、脚本' },
       {
         value: 'chore',
-        name: 'chore:    对构建过程或辅助工具和库的更改,不影响源文件、测试用例的其他操作',
+        name: 'chore:对构建过程或辅助工具和库的更改,不影响源文件、测试用例的其他操作',
       },
-      { value: 'revert', name: 'revert:   回滚 commit' },
-  
+      { value: 'revert', name: 'revert:回滚commit' },
     ],
     // scope 类型，针对 React 项目
     scopes: [
       ['components', '组件相关'],
-      ['hooks', 'hook 相关'],
+      ['hooks', 'hook相关'],
       ['hoc', 'HOC'],
-      ['utils', 'utils 相关'],
-      ['antd', '对 antd 主题的调整'],
+      ['utils', 'utils相关'],
+      ['antd', '对antd主题的调整'],
       ['styles', '样式相关'],
       ['deps', '项目依赖'],
-      ['auth', '对 auth 修改'],
+      ['auth', '对auth修改'],
       ['other', '其他修改'],
-      // 如果选择 custom ,后面会让你再输入一个自定义的 scope , 也可以不设置此项， 把后面的 allowCustomScopes 设置为 true
+      // 如果选择 custom ,后面y会让你再输入一个自定义的 scope , 也可以不设置此项， 把后面的 allowCustomScopes 设置为 true
       ['custom', '以上都不是？我要自定义'],
     ].map(([value, description]) => {
       return {
