@@ -1,1 +1,1 @@
-console.log("aasss22zzf222a")
+console.log("zzf")
