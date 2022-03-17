@@ -25,7 +25,7 @@ module.exports = {
     // allowCustomScopes: true,
     // allowBreakingChanges: [], //['feat', 'fix'],  jj
     // skip any questions you want
-    skipQuestions: ['scope', 'body', 'footer', 'confirmCommit'], //'confirmCommit'
+    skipQuestions: ['scope', 'body', 'footer'], //'confirmCommit'
   
     // subject 限制长度
     subjectLimit: 100,
