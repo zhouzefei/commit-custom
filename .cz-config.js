@@ -1,10 +1,11 @@
 module.exports = {
+  "disableEmoji": false,
     // type 类型
     types: [
-      { value: 'feat', name: 'feat:新增产品功能' },
-      { value: 'fix', name: 'fix:修复 bug' },
-      { value: 'ci', name: 'ci:修改了CI配置、脚本' },
-      { value: 'revert', name: 'revert:回滚commit' }
+      { value: 'feat', "emoji": "✨", name: 'feat:新增产品功能' },
+      { value: 'fix', "emoji": "🐛",  name: 'fix:修复 bug' },
+      { value: 'ci', "emoji": "🤖", name: 'ci:修改了CI配置、脚本' },
+      { value: 'revert',  "emoji": "🚑", name: 'revert:回滚commit' }
     ],
     // scope 类型，针对 React 项目
     scopes: [],
