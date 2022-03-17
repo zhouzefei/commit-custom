@@ -1,18 +1,13 @@
 module.exports = {
-  "disableEmoji": false,
     // type 类型
     types: [
-      { value: 'feat', "emoji": "✨", name: 'feat:新增产品功能' },
-      { value: 'fix', "emoji": "🐛",  name: 'fix:修复 bug' },
-      { value: 'ci', "emoji": "🤖", name: 'ci:修改了CI配置、脚本' },
-      { value: 'revert',  "emoji": "🚑", name: 'revert:回滚commit' }
+      { value: 'feat',name: '✨ feat:新增产品功能' },
+      { value: 'fix', name: '🐛 fix:修复 bug' },
+      { value: 'ci',name: '🤖 ci:修改了CI配置、脚本' },
+      { value: 'revert', name: '🚑 revert:回滚commit' }
     ],
     // scope 类型，针对 React 项目
-    scopes: [],
-    allowTicketNumber: false,
-    isTicketNumberRequired: false,
-    ticketNumberPrefix: 'TICKET-',
-    ticketNumberRegExp: '\\d{1,5}',
+    // scopes: [],
     // 覆写提示的信息
     messages: {
       type: "请确保你的提交遵循了原子提交规范！\n选择你要提交的类型:",
@@ -28,9 +23,9 @@ module.exports = {
   
     // 是否允许自定义填写 scope ，设置为 true ，会自动添加两个 scope 类型 [{ name: 'empty', value: false },{ name: 'custom', value: 'custom' }]
     // allowCustomScopes: true,
-    allowBreakingChanges: [], //['feat', 'fix'],
+    // allowBreakingChanges: [], //['feat', 'fix'],
     // skip any questions you want
-    skipQuestions: ['body', 'scope', 'footer','confirmCommit'], //,
+    // skipQuestions: ['scope', 'body', 'footer','confirmCommit'], //,
   
     // subject 限制长度
     subjectLimit: 100,
