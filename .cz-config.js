@@ -9,6 +9,10 @@ module.exports = {
     ],
     // scope 类型，针对 React 项目
     scopes: [],
+    allowTicketNumber: false,
+    isTicketNumberRequired: false,
+    ticketNumberPrefix: 'TICKET-',
+    ticketNumberRegExp: '\\d{1,5}',
     // 覆写提示的信息
     messages: {
       type: "请确保你的提交遵循了原子提交规范！\n选择你要提交的类型:",
@@ -26,7 +30,7 @@ module.exports = {
     // allowCustomScopes: true,
     allowBreakingChanges: [], //['feat', 'fix'],
     // skip any questions you want
-    skipQuestions: ['body', 'scope', 'footer'], //,'confirmCommit'
+    skipQuestions: ['body', 'scope', 'footer','confirmCommit'], //,
   
     // subject 限制长度
     subjectLimit: 100,
