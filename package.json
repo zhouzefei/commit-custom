@@ -9,11 +9,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
   "homepage": "",
   "dependencies": {
     "commitizen": "^4.2.4",
@@ -27,32 +31,7 @@
   },
   "config": {
     "commitizen": {
-        "path": "./node_modules/cz-conventional-changelog",
-        "disableScopeLowerCase": false,
-        "disableSubjectLowerCase": false,
-        "maxHeaderWidth": 100,
-        "maxLineWidth": 100,
-        "defaultType": "",
-        "defaultScope": "",
-        "defaultSubject": "",
-        "defaultBody": "",
-        "defaultIssues": "",
-        "types": {
-          "feat": {
-            "description": "✨ feat:新增产品功能",
-            "title": "feat"
-          },
-          "fix": {
-            "description": "🐛 fix:修复 bug",
-            "title": "fix"
-          }
-        },
-        "skipQuestions": ["scope", "body", "footer"],
-        "messages": {
-          "type": "请确保你的提交遵循了原子提交规范！\n选择你要提交的类型:",
-          "scope": "\n选择一个 scope (可选):",
-          "confirmCommit": "确认提交?"
-        }
+      "path": "./node_modules/cz-customizable"
     }
   }
 }
