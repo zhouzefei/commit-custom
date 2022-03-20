@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "changeLog":"conventional-changelog -i CHANGELOG.md -s",
+    "changeLog":"conventional-changelog -p angular -i CHANGELOG.md -s",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +27,26 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+        "path": "./node_modules/cz-conventional-changelog",
+        "disableScopeLowerCase": false,
+        "disableSubjectLowerCase": false,
+        "maxHeaderWidth": 100,
+        "maxLineWidth": 100,
+        "defaultType": "",
+        "defaultScope": "",
+        "defaultSubject": "",
+        "defaultBody": "",
+        "defaultIssues": "",
+        "types": {
+          "feat": {
+            "description": "A new feature",
+            "title": "Features"
+          },
+          "fix":{
+            "description": "周泽飞设计师金额均为",
+            "title": "Bug"
+          }
+        }
     }
   }
 }

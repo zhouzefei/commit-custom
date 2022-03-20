@@ -7,6 +7,7 @@
 * 999 ([c822a96](https://github.com/zhouzefei/commit-custom/commit/c822a964696a8578e0fa6057d01064bab0fb460c))
 * 测试中 ([cf38de5](https://github.com/zhouzefei/commit-custom/commit/cf38de50fa1f9b391798fc2c49132af1bb16f079))
 * 修复 ([1f0ac2e](https://github.com/zhouzefei/commit-custom/commit/1f0ac2ea3dc6b8f861b54c9600423cc60187c110))
+* 这是一个bg ([9ddc978](https://github.com/zhouzefei/commit-custom/commit/9ddc9787e6e40280c875e184ab17ad214de22267))
 * 这是一个bug ([978cf35](https://github.com/zhouzefei/commit-custom/commit/978cf358823017c4fc7755994cb551dc27b5ec96))
 * 这是bug ([253bf75](https://github.com/zhouzefei/commit-custom/commit/253bf75fb002cb5c96ab6355e942e01ddd5a6aa9))
 * **aa:** s ([3b32c6d](https://github.com/zhouzefei/commit-custom/commit/3b32c6d91a9db0ccbcb617af164b1b463b6599f2))
