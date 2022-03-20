@@ -4,7 +4,7 @@ let msg = require('fs')
   .readFileSync(msgPaths, 'utf-8')
   .trim();
   
-
+console.log(chalk.green(msg))
 //const commitRE = /^(revert: )?(feat|fix|docs|style|refactor|perf|test|workflow|ci|chore|types)(\(.+\))?: .{1,50}/;
 const commitRE = /^(:\w{3,50}:.{3,30})/;
 if (msg.includes('Merge branch')) {
