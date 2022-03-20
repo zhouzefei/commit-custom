@@ -28,6 +28,7 @@
 
 * 00 ([30e3b67](https://github.com/zhouzefei/commit-custom/commit/30e3b672556faffeb0b8f07d7c9a4a952ed6916f))
 * 99 ([61a29c6](https://github.com/zhouzefei/commit-custom/commit/61a29c61353b143c458678aab746fe855eef5d71))
+* 增加lint规范🦢 ([7a91dec](https://github.com/zhouzefei/commit-custom/commit/7a91decf32a30c3a5ecdc0aa256473b69b399c95))
 * **components:** iuuuu ([9292a5e](https://github.com/zhouzefei/commit-custom/commit/9292a5ea30efa0352532ca274f07b02d8a2660c0))
 * zzzzzzz777 ([5a39673](https://github.com/zhouzefei/commit-custom/commit/5a396738dedfa831bb89815fff52ea9b04c3bc80))
 
