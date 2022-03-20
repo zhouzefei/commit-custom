@@ -27,7 +27,26 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+        "path": "./node_modules/cz-conventional-changelog",
+        "disableScopeLowerCase": false,
+        "disableSubjectLowerCase": false,
+        "maxHeaderWidth": 100,
+        "maxLineWidth": 100,
+        "defaultType": "",
+        "defaultScope": "",
+        "defaultSubject": "",
+        "defaultBody": "",
+        "defaultIssues": "",
+        "types": {
+          "feat": {
+            "description": "✨ feat:新增产品功能",
+            "title": "feat"
+          },
+          "fix": {
+            "description": "🐛 fix:修复 bug",
+            "title": "fix"
+          }
+        }
     }
   }
 }
